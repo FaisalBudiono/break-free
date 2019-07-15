@@ -1,0 +1,152 @@
+*{
+	font-family: Ubuntu;
+}
+body{
+	background-color: #C7A4FF;
+}
+a.password_toggle:hover{
+	color: #AE52D4;
+	text-decoration: none;
+}
+#accContainer{
+	min-height: 65vh;
+}
+.bg_gray{
+	background-color: #F4F4F4;
+}
+.bg_grayer{
+	background-color: #D6D6D6;
+}
+.bg_purple{
+	background-color: #4A0072;
+}
+.btn{
+	animation: all 0.3s cubic-bezier(.25,.8,.25,1);
+	border-radius: 2em;
+	border: 1px solid rgba(74, 0, 114, 0.7);
+}
+.btn:hover{
+	border: 1px solid rgba(74, 0, 114, 1);
+}
+.btn_account{
+	cursor: pointer;
+	font-size: 1.5rem;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.btn_checkbox{
+	cursor: pointer;
+	font-size: 1.5rem;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.btn_purple{
+	background-color: rgba(74, 0, 114, .9);
+}
+.btn_purple:hover{
+	background-color: rgba(74, 0, 114, 1);
+}
+.disabled:hover.btn_purple{
+	border: 1px solid rgba(74, 0, 114, 0.7);
+	background-color: rgba(74, 0, 114, .9);
+}
+.full_height{
+	min-height: 100vh;
+}
+.landing_content_left{
+	background-attachment: local; 
+	background-color: #4A0072;
+	background-image: url('../../logo/hero.png');
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-size: 40vw auto;
+}
+.landing_content_right{
+	background-color: white;
+}
+.loading{
+	height: calc(10vh + 30px);
+}
+.max_width_inherit{
+	max-width: inherit;
+}
+.mini_logo{
+	width: 3rem;
+}
+.modal .close{
+	z-index: 1051;
+}
+.modal_title{
+	margin-top: -1.5rem;
+}
+.rounded_input{
+	border-radius: 2em;
+}
+.text_purple{
+	color: #AE52D4;
+}
+.pointer{
+	cursor: pointer;
+}
+.separator{
+	border: 1px solid rgba(0,0,0,0.5);
+}
+.text_wrap{
+	word-break: break-word;
+}
+
+/** Start of Floating button. */
+.plus_btn{
+	background-color: rgba(74, 0, 114, 0.9);
+	border-radius: 2em;
+}
+.plus_btn:hover{
+	background-color: rgba(74, 0, 114, 1);
+}
+.plus_btn_main_text{
+	margin-top: calc((3vw + 48px)/2 - (2vw + 16px)/2);
+}
+.plus_btn_dropdown{
+	position: fixed;
+	background-color: transparent;
+	bottom: calc(2vw + 12px + 3vw + 48px);
+	right: calc(2vw + 12px + (3vw + 48px)/2 - (2vw + 24px)/2);
+}
+.plus_btn_main{
+	position: fixed;
+	bottom: calc(2vw + 12px);
+	right: calc(2vw + 12px);
+	font-size: calc(2vw + 16px);
+	height: calc(3vw + 48px);
+	width: calc(3vw + 48px);
+}
+.plus_btn_items{
+	background-color: rgba(74, 0, 114, 0.9);
+	text-align: center;
+	font-size: calc(1vw + 4px);
+	height: calc(2vw + 24px);
+	width: calc(2vw + 24px);
+	margin-bottom: 0.3rem;
+}
+.plus_btn_items_text{
+	margin-top: calc((2vw + 24px)/2 - (1vw + 4px)/2);
+}
+/** End of Floating button. */
+
+/** Start of Popover handler. */
+.popover{
+	max-width: 25vw;
+}
+/** End of Popover handler. */
+
+/** Start of Toast handler. */
+.toast.show{
+	z-index: 1055;
+}
+/** End of Toast handler. */
+
+@media (max-width: 992px) {
+	.popover{
+		max-width: 60vw;
+	}
+}
